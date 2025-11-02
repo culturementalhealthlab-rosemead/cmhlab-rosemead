@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture and Mental Health Lab: Insights for Impact</title>
+    <!-- Import Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Import Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Smooth scroll behavior */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-green-800"> <!-- Changed -->
+                CMH Lab
+            </div>
+            <div class="space-x-6 hidden md:block">
+                <a href="#about" class="text-gray-600 hover:text-green-700 transition duration-300">About Us</a> <!-- Changed -->
+                <a href="#team" class="text-gray-600 hover:text-green-700 transition duration-300">Our Team</a> <!-- Changed -->
+                <a href="#alumni" class="text-gray-600 hover:text-green-700 transition duration-300">Alumni</a> <!-- Changed -->
+                <a href="#initiative" class="text-gray-600 hover:text-green-700 transition duration-300">Specialty Initiative</a> <!-- Changed -->
+                <a href="#contact" class="text-gray-600 hover:text-green-700 transition duration-300">Contact</a> <!-- Changed -->
+            </div>
+            <!-- Mobile Menu Button (optional but good for usability) -->
+            <div class="md:hidden">
+                <button class="text-gray-600 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 1. Image/Logo Section (Hero) -->
+        <section id="hero" class="bg-green-800 text-white py-20 md:py-32"> <!-- Changed -->
+            <div class="container mx-auto px-6 text-center">
+                <!-- Placeholder for Logo -->
+                <img src="https://placehold.co/300x150/FFFFFF/2F855A?text=Lab+Logo" 
+                     alt="Culture and Mental Health Lab Logo" 
+                     class="mx-auto mb-8 rounded-lg bg-white p-4 shadow-lg"
+                     onerror="this.src='https://placehold.co/300x150/FFFFFF/2F855A?text=Lab+Logo'"> <!-- Changed placeholder color -->
+                
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Culture and Mental Health</h1>
+                <p class="text-2xl md:text-3xl font-light">Insights for Impact</p>
+            </div>
+        </section>
+
+        <!-- 2. About the Lab & PIs Section -->
+        <section id="about" class="py-20 md:py-28 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-green-900 mb-12">About Our Lab</h2> <!-- Changed -->
+                
+                <!-- Lab Description -->
+                <div class="max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed mb-16 text-center">
+                    <p>
+                        Welcome to the Culture and Mental Health (CMH) Lab. Our mission is to conduct impactful research that illuminates the intersections of culture, identity, and mental well-being. We are dedicated to generating insights that can be translated into effective, culturally-responsive interventions and policies. We believe in a community-centered approach, working collaboratively to address mental health disparities and promote equity.
+                    </p>
+                </div>
+
+                <!-- Primary Investigators -->
+                <h3 class="text-2xl md:text-3xl font-semibold text-center text-gray-800 mb-10">Meet the Primary Investigators</h3>
+                <div class="flex flex-wrap justify-center gap-10">
+                    
+                    <!-- PI 1 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg text-center w-full sm:w-2/5 lg:w-1D/4">
+                        <img src="https://placehold.co/200x200/E6FFFA/2C7A7B?text=PI+1+Photo" 
+                             alt="Photo of Dr. Investigator One" 
+                             class="w-40 h-40 rounded-full mx-auto mb-4 border-4 border-teal-200"
+                             onerror="this.src='https://placehold.co/200x200/E6FFFA/2C7A7B?text=PI+1+Photo'"> <!-- Changed placeholder & border -->
+                        <h4 class="text-xl font-bold text-green-900">Dr. Investigator One</h4> <!-- Changed -->
+                        <p class="text-teal-700 mb-2">Professor of Psychology</p> <!-- Changed -->
+                        <p class="text-gray-600 text-sm">
+                            Dr. One's research focuses on [brief description of research area, e.g., immigrant mental health and acculturation].
+                        </p>
+                    </div>
+
+                    <!-- PI 2 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg text-center w-full sm:w-2/5 lg:w-1/4">
+                        <img src="https://placehold.co/200x200/E6FFFA/2C7A7B?text=PI+2+Photo" 
+                             alt="Photo of Dr. Investigator Two" 
+                             class="w-40 h-40 rounded-full mx-auto mb-4 border-4 border-teal-200"
+                             onerror="this.src='https://placehold.co/200x200/E6FFFA/2C7A7B?text=PI+2+Photo'"> <!-- Changed placeholder & border -->
+                        <h4 class="text-xl font-bold text-green-900">Dr. Investigator Two</h4> <!-- Changed -->
+                        <p class="text-teal-700 mb-2">Associate Professor</p> <!-- Changed -->
+                        <p class="text-gray-600 text-sm">
+                            Dr. Two specializes in [brief description, e.g., cultural adaptations of evidence-based practices].
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Research Team Members Section -->
+        <section id="team" class="py-20 md:py-28 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-green-900 mb-12">Our Research Team</h2> <!-- Changed -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10"> <!-- Updated grid layout -->
+                    
+                    <!-- Team Member 1 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col"> <!-- Updated card styling -->
+                        <img src="https://placehold.co/150x150/E6FFFA/2C7A7B?text=Team+Member" 
+                             alt="Photo of Team Member" 
+                             class="w-32 h-32 rounded-full mx-auto mb-4"
+                             onerror="this.src='https://placehold.co/150x150/E6FFFA/2C7A7B?text=Team+Member'"> <!-- Changed placeholder -->
+                        <div class="text-center mb-4">
+                            <h4 class="text-xl font-semibold text-gray-800">Team Member Name</h4> <!-- Larger text -->
+                            <p class="text-teal-700 text-base">Lab Manager</p> <!-- Changed -->
+                        </div>
+                        <!-- New details section -->
+                        <div class="text-sm text-gray-600 space-y-4">
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">What I enjoy about the lab:</h5>
+                                <p class="leading-relaxed italic">
+                                    "[Placeholder text about enjoying the collaborative environment, mentorship, and focus on community-impact.]"
+                                </p>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">Current Projects:</h5>
+                                <p class="leading-relaxed">
+                                    "N/A (or placeholder for project)"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team Member 2 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col"> <!-- Updated card styling -->
+                        <img src="https://placehold.co/150x150/E6FFFA/2C7A7B?text=Team+Member" 
+                             alt="Photo of Team Member" 
+                             class="w-32 h-32 rounded-full mx-auto mb-4"
+                             onerror="this.src='https://placehold.co/150x150/E6FFFA/2C7A7B?text=Team+Member'"> <!-- Changed placeholder -->
+                        <div class="text-center mb-4">
+                            <h4 class="text-xl font-semibold text-gray-800">Team Member Name</h4> <!-- Larger text -->
+                            <p class="text-teal-700 text-base">Postdoctoral Fellow</p> <!-- Changed -->
+                        </div>
+                        <!-- New details section -->
+                        <div class="text-sm text-gray-600 space-y-4">
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">What I enjoy about the lab:</h5>
+                                <p class="leading-relaxed italic">
+                                    "[Placeholder text about enjoying the collaborative environment, mentorship, and focus on community-impact.]"
+                                </p>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">Current Projects:</h5>
+                                <p class="leading-relaxed">
+                                    "[Placeholder text describing post-doctoral research focus.]"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team Member 3 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col"> <!-- Updated card styling -->
+                        <img src="https://placehold.co/150x150/E6FFFA/2C7A7B?text=Team+Member" 
+                             alt="Photo of Team Member" 
+                             class="w-32 h-32 rounded-full mx-auto mb-4"
+                             onerror="this.src='https://placehold.co/150x150/E6FFFA/2C7A7B?text=Team+Member'"> <!-- Changed placeholder -->
+                        <div class="text-center mb-4">
+                            <h4 class="text-xl font-semibold text-gray-800">Team Member Name</h4> <!-- Larger text -->
+                            <p class="text-teal-700 text-base">Doctoral Student</p> <!-- Changed -->
+                        </div>
+                        <!-- New details section -->
+                        <div class="text-sm text-gray-600 space-y-4">
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">What I enjoy about the lab:</h5>
+                                <p class="leading-relaxed italic">
+                                    "[Placeholder text about enjoying the collaborative environment, mentorship, and focus on community-impact.]"
+                                </p>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">Dissertation Project:</h5>
+                                <p class="leading-relaxed">
+                                    "[Placeholder text describing dissertation topic, e.g., 'My dissertation explores...']"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team Member 4 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col"> <!-- Updated card styling -->
+                        <img src="https://placehold.co/150x150/E6FFFA/2C7A7B?text=Team+Member" 
+                             alt="Photo of Team Member" 
+                             class="w-32 h-32 rounded-full mx-auto mb-4"
+                             onerror="this.src='https://placehold.co/150x150/E6FFFA/2C7A7B?text=Team+Member'"> <!-- Changed placeholder -->
+                        <div class="text-center mb-4">
+                            <h4 class="text-xl font-semibold text-gray-800">Team Member Name</h4> <!-- Larger text -->
+                            <p class="text-teal-700 text-base">Doctoral Student</p> <!-- Changed -->
+                        </div>
+                        <!-- New details section -->
+                        <div class="text-sm text-gray-600 space-y-4">
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">What I enjoy about the lab:</h5>
+                                <p class="leading-relaxed italic">
+                                    "[Placeholder text about enjoying the collaborative environment, mentorship, and focus on community-impact.]"
+                                </p>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">Thesis Project:</h5>
+                                <p class="leading-relaxed">
+                                    "[Placeholder text describing thesis topic, e.g., 'My thesis examines...']"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 5 -->
+                     <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col"> <!-- Updated card styling -->
+                        <img src="https://placehold.co/150x150/E6FFFA/2C7A7B?text=Team+Member" 
+                             alt="Photo of Team Member" 
+                             class="w-32 h-32 rounded-full mx-auto mb-4"
+                             onerror="this.src='https://placehold.co/150x150/E6FFFA/2C7A7B?text=Team+Member'"> <!-- Changed placeholder -->
+                        <div class="text-center mb-4">
+                            <h4 class="text-xl font-semibold text-gray-800">Team Member Name</h4> <!-- Larger text -->
+                            <p class="text-teal-700 text-base">Research Assistant</p> <!-- Changed -->
+                        </div>
+                        <!-- New details section -->
+                        <div class="text-sm text-gray-600 space-y-4">
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">What I enjoy about the lab:</h5>
+                                <p class="leading-relaxed italic">
+                                    "[Placeholder text about enjoying the collaborative environment, mentorship, and focus on community-impact.]"
+                                </p>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">Current Projects:</h5>
+                                <p class="leading-relaxed">
+                                    "[Placeholder text describing current responsibilities or research interests.]"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 6 -->
+                     <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col"> <!-- Updated card styling -->
+                        <img src="https://placehold.co/150x150/E6FFFA/2C7A7B?text=Team+Member" 
+                             alt="Photo of Team Member" 
+                             class="w-32 h-32 rounded-full mx-auto mb-4"
+                             onerror="this.src='https://placehold.co/150x150/E6FFFA/2C7A7B?text=Team+Member'"> <!-- Changed placeholder -->
+                        <div class="text-center mb-4">
+                            <h4 class="text-xl font-semibold text-gray-800">Team Member Name</h4> <!-- Larger text -->
+                            <p class="text-teal-700 text-base">Research Assistant</p> <!-- Changed -->
+                        </div>
+                        <!-- New details section -->
+                        <div class="text-sm text-gray-600 space-y-4">
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">What I enjoy about the lab:</h5>
+                                <p class="leading-relaxed italic">
+                                    "[Placeholder text about enjoying the collaborative environment, mentorship, and focus on community-impact.]"
+                                </p>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">Current Projects:</h5>
+                                <p class="leading-relaxed">
+                                    "[Placeholder text describing current responsibilities or research interests.]"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Alumni Section -->
+        <section id="alumni" class="py-20 md:py-28 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-green-900 mb-12">Our Alumni</h2> <!-- Changed -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+                    
+                    <!-- Alumni 1 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg flex flex-col">
+                        <img src="https://placehold.co/150x150/E6FFFA/2C7A7B?text=Alumni+Photo" 
+                             alt="Photo of Alumni" 
+                             class="w-32 h-32 rounded-full mx-auto mb-4"
+                             onerror="this.src='httpsD://placehold.co/150x150/E6FFFA/2C7A7B?text=Alumni+Photo'"> <!-- Changed placeholder -->
+                        <div class="text-center mb-4">
+                            <h4 class="text-xl font-semibold text-gray-800">Dr. Alumni Name</h4>
+                            <p class="text-teal-700 text-base">Graduated [Year]</p> <!-- Changed -->
+                        </div>
+                        <div class="text-sm text-gray-600 space-y-4">
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">Dissertation Project:</h5>
+                                <p class="leading-relaxed">
+                                    "[Placeholder text describing their dissertation topic, e.g., 'Dissertation explored the impact of...']"
+                                </p>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">Currently At:</h5>
+                                <p class="leading-relaxed font-medium text-gray-700">
+                                    "[Placeholder for current role, e.g., Postdoctoral Fellow at University X or Clinician at Y Center]"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Alumni 2 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg flex flex-col">
+                        <img src="https://placehold.co/150x150/E6FFFA/2C7A7B?text=Alumni+Photo" 
+                             alt="Photo of Alumni" 
+                             class="w-32 h-32 rounded-full mx-auto mb-4"
+                             onerror="this.src='httpsD://placehold.co/150x150/E6FFFA/2C7A7B?text=Alumni+Photo'"> <!-- Changed placeholder -->
+                        <div class="text-center mb-4">
+                            <h4 class="text-xl font-semibold text-gray-800">Dr. Alumni Name</h4>
+                            <p class="text-teal-700 text-base">Graduated [Year]</p> <!-- Changed -->
+                        </div>
+                        <div class="text-sm text-gray-600 space-y-4">
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">Dissertation Project:</h5>
+                                <p class="leading-relaxed">
+                                    "[Placeholder text describing their dissertation topic, e.g., 'Dissertation explored the impact of...']"
+                                </p>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">Currently At:</h5>
+                                <p class="leading-relaxed font-medium text-gray-700">
+                                    "[Placeholder for current role, e.g., Postdoctoral Fellow at University X or Clinician at Y Center]"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Alumni 3 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg flex flex-col">
+                        <img src="https://placehold.co/150x150/E6FFFA/2C7A7B?text=Alumni+Photo" 
+                             alt="Photo of Alumni" 
+                             class="w-32 h-32 rounded-full mx-auto mb-4"
+                             onerror="this.src='httpsD://placehold.co/150x150/E6FFFA/2C7A7B?text=Alumni+Photo'"> <!-- Changed placeholder -->
+                        <div class="text-center mb-4">
+                            <h4 class="text-xl font-semibold text-gray-800">Dr. Alumni Name</h4>
+                            <p class="text-teal-700 text-base">Graduated [Year]</p> <!-- Changed -->
+                        </div>
+                        <div class="text-sm text-gray-600 space-y-4">
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">Dissertation Project:</h5>
+                                <p class="leading-relaxed">
+                                    "[Placeholder text describing their dissertation topic, e.g., 'Dissertation explored the impact of...']"
+                                </p>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-gray-700 mb-1">Currently At:</h5>
+                                <p class="leading-relaxed font-medium text-gray-700">
+                                    "[Placeholder for current role, e.g., Postdoctoral Fellow at University X or Clinician at Y Center]"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Asian American Specialty Training Initiative Section -->
+        <section id="initiative" class="py-20 md:py-28 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <div class="bg-yellow-50 border-l-4 border-orange-500 rounded-r-lg p-8 md:p-12 max-w-4xl mx-auto shadow-lg"> <!-- Changed -->
+                    <h2 class="text-3xl md:text-4xl font-bold text-orange-900 mb-6"> <!-- Changed -->
+                        Asian American Specialty Training Initiative
+                    </h2>
+                    <div class="text-lg text-gray-700 space-y-4 leading-relaxed">
+                        <p>
+                            A key focus of the CMH Lab is our <strong>Asian American Specialty Training Initiative (AASTI)</strong>. This initiative is designed to address the specific mental health needs of Asian American communities through specialized training, dedicated research, and community-oriented outreach.
+                        </p>
+                        <p>
+                            The AASTI aims to cultivate a new generation of mental health professionals who are proficient in providing culturally and linguistically competent care. Our work within this initiative includes [briefly mention 1-2 key activities, e.g., developing training modules, researching specific stressors, or partnering with community organizations].
+                        </p>
+                        <a href="#" class="inline-block bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-700 transition duration-300 mt-4"> <!-- Changed -->
+                            Learn More About AASTI
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-800 text-gray-300 py-16">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-lg font-semibold mb-4">Get in Touch</p>
+            <p class="mb-2">123 University Ave, City, State 12345</p>
+            <p class="mb-4"><a href="mailto:contact@cmhlab.org" class="hover:text-yellow-300 underline">contact@cmhlab.org</a></p> <!-- Changed -->
+            <p class="text-sm text-gray-400">&copy; 2025 Culture and Mental Health Lab. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
